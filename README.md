@@ -30,7 +30,7 @@ You will need to adjust any parameters you want then render and export to STL fo
 ![CoilToolNC2](img/image4.png)
 
 
-[![License](https://img.shields.io/github/license/duncanyoyo1/Coil-Tool?logo=BSD-2-Clause&style=plastic)](https://opensource.org/licenses/BSD-2-Clause)
+[![License](https://img.shields.io/github/license/duncanyoyo1/Coil-Tool?style=plastic)](https://opensource.org/licenses/BSD-2-Clause)
 [![Languages](https://img.shields.io/github/languages/top/duncanyoyo1/Coil-Tool?style=plastic)](https://github.com/duncanyoyo1/Coil-Tool)
 [![Last Commit](https://img.shields.io/github/last-commit/duncanyoyo1/Coil-Tool?style=plastic)](https://github.com/duncanyoyo1/Coil-Tool/commits/main)
 [![Code Size](https://img.shields.io/github/languages/code-size/duncanyoyo1/Coil-Tool?style=plastic)](https://github.com/duncanyoyo1/Coil-Tool)
