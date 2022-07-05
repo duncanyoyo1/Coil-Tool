@@ -11,11 +11,11 @@ You can also adjust the depth of the text, or the font by changing the **size_te
 
 The knurling is also completely adjustable with the following parameters.
 
-- knurl_wd      - Knurl polyhedron width
-- knurl_hg      - Knurl polyhedron height
-- knurl_dp      - Knurl polyhedron depth
-- e_smooth      - Cylinder ends smoothed height
-- s_smooth      - [ 0% - 100% ] Knurled surface smoothing amount
+- **knurl_wd**      - Knurl polyhedron width
+- **knurl_hg**      - Knurl polyhedron height
+- **knurl_dp**      - Knurl polyhedron depth
+- **e_smooth**      - Cylinder ends smoothed height
+- **s_smooth**      - [ 0% - 100% ] Knurled surface smoothing amount
 
 It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Assortment-Diameter-1-0-8-0mm/dp/B09W5PBHGR/), but anything could be used. 
 
