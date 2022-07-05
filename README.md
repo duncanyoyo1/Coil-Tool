@@ -17,10 +17,9 @@ You will need to adjust any parameters you want then render and export to STL fo
 ![CoilToolNC1](img/image3.png)
 ![CoilToolNC2](img/image4.png)
 
-[]: # Language: markdown
-[]: # Path: README.md
-[![License](https://img.shields.io/github/license/duncanyoyo1/DNA60OhmMeter?logo=BSD-2-Clause&style=plastic)](https://opensource.org/licenses/BSD-2-Clause)
-[![Languages](https://img.shields.io/github/languages/top/duncanyoyo1/DNA60OhmMeter?style=plastic)](https://github.com/duncanyoyo1/DNA60OhmMeter)
-[![Last Commit](https://img.shields.io/github/last-commit/duncanyoyo1/DNA60OhmMeter?style=plastic)](https://github.com/duncanyoyo1/DNA60OhmMeter/commits/master)
-[![Code Size](https://img.shields.io/github/languages/code-size/duncanyoyo1/DNA60OhmMeter?style=plastic)](https://github.com/duncanyoyo1/DNA60OhmMeter)
-[![Repo Size](https://img.shields.io/github/repo-size/duncanyoyo1/DNA60OhmMeter?style=plastic)](https://github.com/duncanyoyo1/DNA60OhmMeter)
+
+[![License](https://img.shields.io/github/license/duncanyoyo1/Coil-Tool?logo=BSD-2-Clause&style=plastic)](https://opensource.org/licenses/BSD-2-Clause)
+[![Languages](https://img.shields.io/github/languages/top/duncanyoyo1/Coil-Tool?style=plastic)](https://github.com/duncanyoyo1/DNA60OhmMeter)
+[![Last Commit](https://img.shields.io/github/last-commit/duncanyoyo1/Coil-Tool?style=plastic)](https://github.com/duncanyoyo1/DNA60OhmMeter/commits/master)
+[![Code Size](https://img.shields.io/github/languages/code-size/duncanyoyo1/Coil-Tool?style=plastic)](https://github.com/duncanyoyo1/DNA60OhmMeter)
+[![Repo Size](https://img.shields.io/github/repo-size/duncanyoyo1/Coil-Tool?style=plastic)](https://github.com/duncanyoyo1/DNA60OhmMeter)
