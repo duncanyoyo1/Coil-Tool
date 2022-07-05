@@ -7,6 +7,8 @@ You can adjust the size of the coil rod by changing the c_id value and you can a
 It will automatically change the text on the bottom ( If you have a half size, e.g. 2.5mm, you may need to reduce the font size )
 You can also adjust the depth of the text, or the font by changing the size_text module.
 
+It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Assortment-Diameter-1-0-8-0mm/dp/B09W5PBHGR/), but anything could be used. 
+
 - [The Main Tool Body with Wrapping Cap](Coil_Rod_Handle_w_Cap.scad)
 - [The Main Tool Body without Cap](Coil_Rod_Handle.scad)
 
