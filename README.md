@@ -7,7 +7,7 @@ You can adjust the size of the coil rod by changing the **c_id** value and you c
 
 It will automatically change the text on the bottom ( If you have a half size, e.g. 2.5mm, you may need to reduce the font size )
 
-You can also adjust the depth of the text, or the font by changing the **size_text** module.
+You can adjust the depth of the text, or the font by changing the **size_text** module.
 
 The knurling is also completely adjustable with the following parameters.
 
