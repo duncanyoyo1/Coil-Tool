@@ -1,7 +1,7 @@
 # A 3D Printed Coil Tool
 This repository will contain the OpenSCAD files as well as STL/AMF exports of the parts needed to actually print the tool yourself.
 
-You will need [BOSL2](https://github.com/revarbat/BOSL2/) and [KnurledFinishLib](https://www.thingiverse.com/thing:9095) to be able to render and export the file in OpenSCAD.
+You will need [BOSL2](https://github.com/revarbat/BOSL2/) and [KnurledFinishLib](https://www.thingiverse.com/thing:9095) and of course [OpenSCAD](https://openscad.org/) to be able to render and export the file in OpenSCAD.
 
 You can adjust the size of the coil rod by changing the c_id value and you can adjust the tolerance with the c_id_t value. This will over or undersize the coil rod hole to compensate for shrinkage from printing.
 It will automatically change the text on the bottom ( If you have a half size, e.g. 2.5mm, you may need to reduce the font size )
