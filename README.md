@@ -48,8 +48,8 @@ Otherwise I have provided some pre-rendered STLs you can do whatever with.
 
 ![CoilToolwCap1](img/image1.png)
 ![CoilToolwCap2](img/image2.png)
-![CoilToolNC1](img/image3.png)
 ![CoilToolNC2](img/image4.png)
+![CoilToolNC1](img/image3.png)
 
 
 [![License](https://img.shields.io/github/license/duncanyoyo1/Coil-Tool?style=plastic)](https://opensource.org/licenses/BSD-2-Clause)
