@@ -7,7 +7,7 @@ $fs = 0.1;      // ----------------------------------
 c_h = 56;       // Set the height
 c_od = 16;      // Set the outer diameter
 c_id = 3;       // Set the ID of the insert and the thickness
-c_id_t = 0.05;  // Set the tolerance of the coil rod +/- here
+c_id_t = 0.1;  // Set the tolerance of the coil rod +/- here
 
 r_c = 1.25;    // Rounding value for the curve may change with ID
 t_h = 0.84;     // Depth of the font
@@ -136,5 +136,5 @@ cylinder(h=100, d=c_id);
 
 
 handle();
-translate([0,0,c_h])
-wrap_cap();
+//translate([0,0,c_h])
+//wrap_cap();
