@@ -24,6 +24,28 @@ It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Asso
 
 You will need to adjust any parameters you want then render and export to STL for slicing and printing.
 
+Otherwise I have provided some pre-rendered STLs you can do whatever with.
+
+- [2.5mm No Cap](Coil_Rod_Handle_2.5mm.stl)
+- [3mm No Cap](Coil_Rod_Handle_3mm.stl)
+- [3.5mm No Cap](Coil_Rod_Handle_3.5mm.stl)
+- [4mm No Cap](Coil_Rod_Handle_4mm.stl)
+- [5mm No Cap](Coil_Rod_Handle_5mm.stl)
+- [6mm No Cap](Coil_Rod_Handle_6mm.stl)
+- [7mm No Cap](Coil_Rod_Handle_7mm.stl)
+- [8mm No Cap](Coil_Rod_Handle_8mm.stl)
+- [2.5mm Cap](Coil_Rod_Handle_Cap_2.5mm.stl)
+- [3mm Cap](Coil_Rod_Handle_Cap_3mm.stl)
+- [3.5mm Cap](Coil_Rod_Handle_Cap_3.5mm.stl)
+- [4mm Cap](Coil_Rod_Handle_Cap_4mm.stl)
+- [5mm Cap](Coil_Rod_Handle_Cap_5mm.stl)
+- [6mm Cap](Coil_Rod_Handle_Cap_6mm.stl)
+- [7mm Cap](Coil_Rod_Handle_Cap_7mm.stl)
+- [8mm Cap](Coil_Rod_Handle_Cap_8mm.stl)
+- [Wrap Cap](Wrap_Cap.stl)
+
+
+
 ![CoilToolwCap1](img/image1.png)
 ![CoilToolwCap2](img/image2.png)
 ![CoilToolNC1](img/image3.png)
