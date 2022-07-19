@@ -24,7 +24,7 @@ It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Asso
 
 You will need to adjust any parameters you want then render and export to STL for slicing and printing.
 
-Otherwise I have provided some pre-rendered STLs you can do whatever with.
+Otherwise I have provided some pre-rendered STL files you can do whatever with.
 | Cap | No Cap |
 | --- | --- |
 | [2.5mm](STL/Coil_Rod_Handle_Cap_2.5mm.stl) | [2.5mm](STL/Coil_Rod_Handle_2.5mm.stl) |
