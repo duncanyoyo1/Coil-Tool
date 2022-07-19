@@ -7,7 +7,7 @@ You can adjust the size of the coil rod by changing the **c_id** value and you c
 
 It will automatically change the text on the bottom ( If you have a half size, e.g. 2.5mm, you may need to reduce the font size )
 
-You can adjust the depth of the text, or the font by changing the **size_text** module.
+You can adjust the depth of the text by changing the **t_h** variable. The font itself can be changed inside the **size_text** module.
 
 The knurling is also completely adjustable with the following parameters.
 
@@ -17,7 +17,7 @@ The knurling is also completely adjustable with the following parameters.
 - **e_smooth**      - Cylinder ends smoothed height
 - **s_smooth**      - [ 0% - 100% ] Knurled surface smoothing amount
 
-It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Assortment-Diameter-1-0-8-0mm/dp/B09W5PBHGR/), but anything could be used. 
+It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Assortment-Diameter-1-0-8-0mm/dp/B09W5PBHGR/)
 
 - [The Main Tool Body with Wrapping Cap](Coil_Rod_Handle_w_Cap.scad)
 - [The Main Tool Body without Cap](Coil_Rod_Handle.scad)
@@ -25,25 +25,17 @@ It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Asso
 You will need to adjust any parameters you want then render and export to STL for slicing and printing.
 
 Otherwise I have provided some pre-rendered STLs you can do whatever with.
-
-- [2.5mm No Cap](STL/Coil_Rod_Handle_2.5mm.stl)
-- [3mm No Cap](STL/Coil_Rod_Handle_3mm.stl)
-- [3.5mm No Cap](STL/Coil_Rod_Handle_3.5mm.stl)
-- [4mm No Cap](STL/Coil_Rod_Handle_4mm.stl)
-- [5mm No Cap](STL/Coil_Rod_Handle_5mm.stl)
-- [6mm No Cap](STL/Coil_Rod_Handle_6mm.stl)
-- [7mm No Cap](STL/Coil_Rod_Handle_7mm.stl)
-- [8mm No Cap](STL/Coil_Rod_Handle_8mm.stl)
-- [2.5mm Cap](STL/Coil_Rod_Handle_Cap_2.5mm.stl)
-- [3mm Cap](STL/Coil_Rod_Handle_Cap_3mm.stl)
-- [3.5mm Cap](STL/Coil_Rod_Handle_Cap_3.5mm.stl)
-- [4mm Cap](STL/Coil_Rod_Handle_Cap_4mm.stl)
-- [5mm Cap](STL/Coil_Rod_Handle_Cap_5mm.stl)
-- [6mm Cap](STL/Coil_Rod_Handle_Cap_6mm.stl)
-- [7mm Cap](STL/Coil_Rod_Handle_Cap_7mm.stl)
-- [8mm Cap](STL/Coil_Rod_Handle_Cap_8mm.stl)
-- [Wrap Cap](STL/Wrap_Cap.stl)
-
+| Cap | No Cap |
+| --- | --- |
+| [2.5mm](STL/Coil_Rod_Handle_Cap_2.5mm.stl) | [2.5mm](STL/Coil_Rod_Handle_2.5mm.stl) |
+| [3mm](STL/Coil_Rod_Handle_Cap_3mm.stl) | [3mm](STL/Coil_Rod_Handle_3mm.stl) |
+| [3.5mm](STL/Coil_Rod_Handle_Cap_3.5mm.stl) | [3.5mm](STL/Coil_Rod_Handle_3.5mm.stl) |
+| [4mm](STL/Coil_Rod_Handle_Cap_4mm.stl) | [4mm](STL/Coil_Rod_Handle_4mm.stl) |
+| [5mm](STL/Coil_Rod_Handle_Cap_5mm.stl) | [5mm](STL/Coil_Rod_Handle_5mm.stl) |
+| [6mm](STL/Coil_Rod_Handle_Cap_6mm.stl) | [6mm](STL/Coil_Rod_Handle_6mm.stl) |
+| [7mm](STL/Coil_Rod_Handle_Cap_7mm.stl) | [7mm](STL/Coil_Rod_Handle_7mm.stl) |
+| [8mm](STL/Coil_Rod_Handle_Cap_8mm.stl) | [8mm](STL/Coil_Rod_Handle_8mm.stl) |
+| [Wrap Cap](STL/Wrap_Cap.stl) | |
 
 
 ![CoilToolwCap1](img/image1.png)
