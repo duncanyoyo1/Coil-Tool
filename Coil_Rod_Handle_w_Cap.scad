@@ -134,7 +134,6 @@ cylinder(h=100, d=c_id);
 
 }
 
-
 handle();
 translate([0,0,c_h])
 wrap_cap();
