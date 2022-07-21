@@ -7,9 +7,11 @@ $fs = 0.1;      // ----------------------------------
 c_h = 56;       // Set the height
 c_od = 16;      // Set the outer diameter
 c_id = 3;       // Set the ID of the insert and the thickness
-c_id_t = 0.1;  // Set the tolerance of the coil rod +/- here
+c_id_t = 0.1;   // Set the tolerance of the coil rod +/- here
+c_c_t = 0.05;    // Set the tolerance of the cap +/- here ( note this effects both sides so the effective tolerance is double the value set here )
+c_t = 2.4;        //Set the cap thickness here
 
-r_c = 1.25;    // Rounding value for the curve may change with ID
+r_c = 1.25;     // Rounding value for the curve may change with ID
 t_h = 0.84;     // Depth of the font
 t_s = 9;        // Size of font
 
@@ -55,27 +57,38 @@ linear_extrude(t_h)
 }
 
 module wrap_cap(){
-difference(){
+    difference(){
         cylinder(h=8.5, d=c_od-(knurl_dp/2));
         wrap_cap_notch();
         translate([0,0,-1.5])
-        cylinder(h=6, d=c_od-2.4);
+        cylinder(h=6, d=(c_od-c_t)+c_c_t);
         translate([0,0,3.05])
-        cylinder(h=6, d=8);
+        cylinder(h=6, d=8+c_c_t);
         translate([0,-5.5,7.5])
         cube([20,10,3], center=true);
-        wrap_cap_wire_gutter();
-        
+        wrap_cap_wire_gutter();        
     }
     difference(){
-    translate([0,8.5,5])
-    linear_extrude(height = 3.5)
-    trapezoid(h=18, w1=15.45, w2=8);
-    translate([0,0,-1.5])
-    cylinder(h=6, d=c_od-2);
-    translate([0,0,3.05])
-    cylinder(h=10, d=8.05);
-    wrap_cap_wire_gutter();
+        translate([0,8.5,5])
+        linear_extrude(height = 3.5)
+        trapezoid(h=18, w1=15.45, w2=8);
+        translate([0,0,3.05])
+        cylinder(h=6, d=8+c_c_t);
+        translate([0,0,3.05])
+        cylinder(h=10, d=8.05);
+        wrap_cap_wire_gutter();
+    }
+}
+
+module wrap_cap_negative(){
+    difference(){
+        cylinder(h=7.5, d=c_od-(knurl_dp/2)+0.05);
+        translate([0,0,0])
+        wrap_cap_notch();
+        translate([0,0,-1.5])
+        cylinder(h=6, d=(c_od-c_t)-c_c_t);
+        translate([0,0,3.05])
+        cylinder(h=6, d=7.95);
     }
 }
 
@@ -101,29 +114,16 @@ module wrap_cap_wire_gutter(){
     cube([2,22,2.75],center=true);
     }
 
-module wrap_cap_negative(){
-difference(){
-        cylinder(h=7.5, d=c_od-(knurl_dp/2)+0.05);
-        translate([0,0,0])
-        wrap_cap_notch();
-        translate([0,0,-1.5])
-        cylinder(h=6, d=c_od-2.55);
-        translate([0,0,3.05])
-        cylinder(h=6, d=7.95);
-    }
-}
-
 module wrap_cap_notch(){
 
     difference(){
-    translate([0,0,-0.05])
-    cylinder(h=2, d=c_od+1.05);
-    translate([0,(c_od-0.75)/2,2])
-    cube([2,2,1],center=true);
-    translate([0,(c_od-0.75)/2,1.5])
-    rotate([0,45,0])
-    cube([1.4125,2,1.4125], center=true);
-    
+        translate([0,0,-0.05])
+        cylinder(h=2, d=c_od+1.05);
+        translate([0,(c_od-0.75)/2,2])
+        cube([2,5,1],center=true);
+        translate([0,(c_od-0.75)/2,1.5])
+        rotate([0,45,0])
+        cube([1.4125,5,1.4125], center=true);
    }
    
 }
@@ -136,5 +136,5 @@ cylinder(h=100, d=c_id);
 
 
 handle();
-//translate([0,0,c_h])
-//wrap_cap();
+translate([0,0,c_h])
+wrap_cap();
