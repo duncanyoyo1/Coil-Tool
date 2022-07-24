@@ -1,38 +1,37 @@
 include <BOSL2/std.scad>
 include <knurledFinishLib.scad>
 
-$fa = 0.1;      // Set these to 1 for faster preview.
-$fs = 0.1;      // ----------------------------------
+$fa = 0.1;       // Set these to 1 for faster preview.
+$fs = 0.1;       // ----------------------------------
 
-c_h = 56;       // Set the height
-c_od = 16;      // Set the outer diameter
-c_id = 3;       // Set the ID of the insert and the thickness
-c_id_t = 0.1;   // Set the tolerance of the coil rod +/- here
+c_h = 56;        // Set the height
+c_od = 16;       // Set the outer diameter
+c_id = 2.5;      // Set the ID of the insert and the thickness
+c_id_t = 0.25;  // Set the tolerance of the coil rod +/- here
 c_c_t = 0.05;    // Set the tolerance of the cap +/- here ( note this effects both sides so the effective tolerance is double the value set here )
-c_t = 2.4;        //Set the cap thickness here
+c_t = 2.4;       //Set the cap thickness here
 
-r_c = 1.25;     // Rounding value for the curve may change with ID
-t_h = 0.84;     // Depth of the font
-t_s = 9;        // Size of font
-
-k_cyl_hg=c_h;    // Knurled cylinder height
-k_cyl_od=c_od;   // Knurled cylinder outer* diameter
+r_c = 1.25;      // Rounding value for the curve may change with c_id
+t_h = 0.84;      // Depth of the font
+t_s = 6;         // Size of font ( 6 for half values 9 for whole )
 
 knurl_wd=3;      // Knurl polyhedron width
 knurl_hg=3;      // Knurl polyhedron height
 knurl_dp=1;      // Knurl polyhedron depth
 
-e_smooth=4;   // Cylinder ends smoothed height
+e_smooth=4;      // Cylinder ends smoothed height
 s_smooth=50;     // [ 0% - 100% ] Knurled surface smoothing amount
 
 module handle(){
         
     difference(){
-        knurled_cyl(k_cyl_hg, k_cyl_od, 
+        knurled_cyl(c_h, c_od, 
                     knurl_wd, knurl_hg, knurl_dp, 
                     e_smooth, s_smooth);
         translate([0,0,15.1])
         cylinder(h=60, d=(c_id+c_id_t));
+        rotate([0,180,0])
+        up(0) rounding_cylinder_mask(d=(c_od), rounding=r_c);
         translate([0,0,(t_h-0.05)])
         rotate([0,180,0])
         size_text();
@@ -134,6 +133,18 @@ cylinder(h=100, d=c_id);
 
 }
 
+module slice(){
+
+    difference(){
+    handle();
+    translate([0,0,(c_h/4)])
+    cube([(c_od)+1,(c_od)+1,(c_h/1.5)], center=true);
+    translate([0,0,(c_h)])
+    cube([(c_od)+1,(c_od)+1,(c_h/1.5)], center=true);
+    }
+
+}
 handle();
-translate([0,0,c_h])
-wrap_cap();
+//translate([0,0,c_h])
+//wrap_cap();
+//slice();
