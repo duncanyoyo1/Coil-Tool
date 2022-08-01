@@ -6,14 +6,14 @@ $fs = 0.1;       // ----------------------------------
 
 c_h = 56;        // Set the height
 c_od = 16;       // Set the outer diameter
-c_id = 2.5;      // Set the ID of the insert and the thickness
-c_id_t = 0.25;  // Set the tolerance of the coil rod +/- here
-c_c_t = 0.05;    // Set the tolerance of the cap +/- here ( note this effects both sides so the effective tolerance is double the value set here )
+c_id = 8;        // Set the ID of the insert and the thickness
+c_id_t = 0.2;    // Set the tolerance of the coil rod +/- here
+c_c_t = 0.05;    // Set the tolerance of the cap +/- here
 c_t = 2.4;       //Set the cap thickness here
 
 r_c = 1.25;      // Rounding value for the curve may change with c_id
 t_h = 0.84;      // Depth of the font
-t_s = 6;         // Size of font ( 6 for half values 9 for whole )
+t_s = 9;         // Size of font ( 6 for half values 9 for whole )
 
 knurl_wd=3;      // Knurl polyhedron width
 knurl_hg=3;      // Knurl polyhedron height
@@ -144,6 +144,7 @@ module slice(){
     }
 
 }
+
 handle();
 //translate([0,0,c_h])
 //wrap_cap();
