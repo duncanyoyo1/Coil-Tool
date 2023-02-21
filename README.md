@@ -17,7 +17,7 @@ The knurling is also completely adjustable with the following parameters.
 - **e_smooth**      - Cylinder ends smoothed height
 - **s_smooth**      - [ 0% - 100% ] Knurled surface smoothing amount
 
-It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Assortment-Diameter-1-0-8-0mm/dp/B09W5PBHGR/)[Alternate Link 1](https://www.amazon.com/Glarks-Aluminum-Assorted-Diameter-2-5-8mm/dp/B07CLGRDQF) [Alternate Link 2](https://www.amazon.com/Glarks-Stainless-Assorted-Diameter-2-5-8mm/dp/B07CLMCD7N/)
+It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Assortment-Diameter-1-0-8-0mm/dp/B09W5PBHGR/), [Alternate Link 1](https://www.amazon.com/Glarks-Aluminum-Assorted-Diameter-2-5-8mm/dp/B07CLGRDQF) [Alternate Link 2](https://www.amazon.com/Glarks-Stainless-Assorted-Diameter-2-5-8mm/dp/B07CLMCD7N/)
 
 - [The Main Tool Body with Wrapping Cap](Coil_Rod_Handle_w_Cap.scad)
 - [The Main Tool Body without Cap](Coil_Rod_Handle.scad)
