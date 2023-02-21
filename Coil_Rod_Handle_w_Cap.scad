@@ -145,7 +145,7 @@ module slice(){
 
 }
 
-//handle();
-//translate([0,0,c_h])
-//wrap_cap();
-slice();
+handle();
+translate([0,0,c_h])
+wrap_cap();
+//slice();
