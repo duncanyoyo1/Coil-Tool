@@ -25,17 +25,17 @@ It was designed for [these rods](https://www.amazon.com/DYWISHKEY-Stainless-Asso
 You will need to adjust any parameters you want then render and export to STL for slicing and printing.
 
 Otherwise I have provided some pre-rendered STL files you can do whatever with.
-| Cap | No Cap |
-| --- | --- |
-| [2.5mm](STL/Coil_Rod_Handle_Cap_2.5mm.stl) | [2.5mm](STL/Coil_Rod_Handle_2.5mm.stl) |
-| [3mm](STL/Coil_Rod_Handle_Cap_3mm.stl) | [3mm](STL/Coil_Rod_Handle_3mm.stl) |
-| [3.5mm](STL/Coil_Rod_Handle_Cap_3.5mm.stl) | [3.5mm](STL/Coil_Rod_Handle_3.5mm.stl) |
-| [4mm](STL/Coil_Rod_Handle_Cap_4mm.stl) | [4mm](STL/Coil_Rod_Handle_4mm.stl) |
-| [5mm](STL/Coil_Rod_Handle_Cap_5mm.stl) | [5mm](STL/Coil_Rod_Handle_5mm.stl) |
-| [6mm](STL/Coil_Rod_Handle_Cap_6mm.stl) | [6mm](STL/Coil_Rod_Handle_6mm.stl) |
-| [7mm](STL/Coil_Rod_Handle_Cap_7mm.stl) | [7mm](STL/Coil_Rod_Handle_7mm.stl) |
-| [8mm](STL/Coil_Rod_Handle_Cap_8mm.stl) | [8mm](STL/Coil_Rod_Handle_8mm.stl) |
-| [Wrap Cap](STL/Wrap_Cap.stl) | |
+| Cap | No Cap | Slice |
+| --- | --- | --- |
+| [2.5mm](STL/Coil_Rod_Handle_Cap_2.5mm.stl) | [2.5mm](STL/Coil_Rod_Handle_2.5mm.stl) | [2.5mm](STL/Slice_2.5mm.stl) |
+| [3mm](STL/Coil_Rod_Handle_Cap_3mm.stl) | [3mm](STL/Coil_Rod_Handle_3mm.stl) | [3mm](STL/Slice_3mm.stl) |
+| [3.5mm](STL/Coil_Rod_Handle_Cap_3.5mm.stl) | [3.5mm](STL/Coil_Rod_Handle_3.5mm.stl) | [3.5mm](STL/Slice_3.5mm.stl) |
+| [4mm](STL/Coil_Rod_Handle_Cap_4mm.stl) | [4mm](STL/Coil_Rod_Handle_4mm.stl) | [4mm](STL/Slice_4mm.stl) |
+| [5mm](STL/Coil_Rod_Handle_Cap_5mm.stl) | [5mm](STL/Coil_Rod_Handle_5mm.stl) | [5mm](STL/Slice_5mm.stl) |
+| [6mm](STL/Coil_Rod_Handle_Cap_6mm.stl) | [6mm](STL/Coil_Rod_Handle_6mm.stl) | [6mm](STL/Slice_6mm.stl) |
+| [7mm](STL/Coil_Rod_Handle_Cap_7mm.stl) | [7mm](STL/Coil_Rod_Handle_7mm.stl) | [7mm](STL/Slice_7mm.stl) |
+| [8mm](STL/Coil_Rod_Handle_Cap_8mm.stl) | [8mm](STL/Coil_Rod_Handle_8mm.stl) | [8mm](STL/Slice_8mm.stl) |
+| [Wrap Cap](STL/Wrap_Cap.stl) | | |
 
 
 ![CoilToolwCap1](img/image1.png)
