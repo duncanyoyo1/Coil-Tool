@@ -6,8 +6,8 @@ $fs = 0.1;       // ----------------------------------
 
 c_h = 56;        // Set the height
 c_od = 16;       // Set the outer diameter
-c_id = 4;        // Set the ID of the insert and the thickness
-c_id_t = 0.125;  // Set the tolerance of the coil rod +/- here
+c_id = 3;        // Set the ID of the insert and the thickness
+c_id_t = 0.5;  // Set the tolerance of the coil rod +/- here
 c_c_t = 0.05;    // Set the tolerance of the cap +/- here
 c_t = 2.4;       //Set the cap thickness here
 
@@ -145,7 +145,10 @@ module slice(){
 
 }
 
+
 handle();
-translate([0,0,c_h])
-wrap_cap();
+//translate([0,0,c_h])
+//wrap_cap();
+
+
 //slice();
